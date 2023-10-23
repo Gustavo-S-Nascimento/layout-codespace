@@ -167,6 +167,7 @@ i {
     justify-content: center;
     align-items: center;
     margin: .5rem;
+
 }
 
 .gallery-container {
@@ -216,8 +217,12 @@ footer {
     border-bottom: 1px solid #FFA200;
 }
 
+/* BreakPoint para telas até 650px */
 
 @media (max-width: 650px) {
+
+/* Alterações do Header */
+
     .header-container {
         display: flex;
         flex-direction: column;
@@ -227,6 +232,8 @@ footer {
     #header-nav li {
         font-size: 1.2em;
     }
+
+ /* Alteraçoes do Home */
 
     #home {
         flex-direction: column;
@@ -255,6 +262,8 @@ footer {
         width: 100%;
     }
 
+/* Alteraçoes dos cards */
+
     #cards {
         flex-direction: column;
     }
@@ -267,7 +276,19 @@ footer {
     .card-container p {
         padding: .5rem;
     }
+
+/* Alteração da Galeria */
+
+    .gallery-container {
+        width: 100%;
+    }
+
+    .gallery-container img:hover {
+        width: 200px;
+    }
 }
+
+/* BreakPoint para telas até 400px */
 
 @media (max-width: 400px) {
     #header-nav {
